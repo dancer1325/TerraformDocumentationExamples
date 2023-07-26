@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "child" {
-  source = "./modules/child_module"
+  source = "modules/child_module"
 
   # Variable to pass
   providers_map = {
